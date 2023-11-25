@@ -1,0 +1,25 @@
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Text&family=Oswald&family=Padauk&family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+
+ $font-family-sans-serif:'Montserrat', 'Padauk', sans-serif;
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.del-btn{
+    display: none;
+    font-size: 10px;
+    transition: 0.5s;
+}
+
+#rows tr:hover .del-btn{
+    display: block;
+}
+
+@media print{
+    p.none{
+        display: none;
+    }
+}
